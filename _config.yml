@@ -64,7 +64,7 @@ me-img: "/img/YAPOUNIpictoV4.png"
 # Color the browser elements #
 ##############################
 color-browser: "#f06f30"
-apple-status-bar-style: "#f06f30"
+apple-status-bar-style: "orange"
 
 ################
 # Web app mode #
