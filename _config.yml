@@ -31,7 +31,7 @@ force-https: True
 lang: "fr"
 author: "Yapouni"
 title: "{ Yapouni }"
-description: "Blog and website of John Smith, blogging mainly for tech. Opinions expressed are mine."
+description: "Yapouni est un jeu de rôle éducatif, constitué d’une application et d’un stéthoscope connecté, permettant aux enfants et à leurs parents de comprendre et d’apprivoiser la maladie, d’appréhender le processus de soin et de dédramatiser l’hospitalisation."
 keywords: "yapouni"
 favicon: "/img/favicon.ico"
 
@@ -55,15 +55,15 @@ type-speed: 10
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: "The lower you fall, the higher you'll fly."
-  - text: "Where’s your will to be weird?"
+  - text: "Yapouni, c'est un jeu sérieux, mais drôle quand même."
+  - text: "Yapouni, c'est un jeu d'rôle mais sérieux quand même."
 
 me-img: "/img/YAPOUNIpictoV4.png"
 
 ##############################
 # Color the browser elements #
 ##############################
-color-browser: "#000000"
+color-browser: "#f06f30"
 apple-status-bar-style: "black"
 
 ################
