@@ -36,18 +36,54 @@ keywords: "yapouni"
 favicon: "/img/favicon.ico"
 
 ################
-# Header layout #
+# 1 Header layout #
 ################
 
 #black-favicon: "/img/black-lab-glass.ico"
 
-background-img: "../img/intro-bg.jpg"
+background-img: "../img/1-intro-bg.jpg"
 
 ################
-# About layout #
+# 2 About layout #
 ################
 
-about-img: "../img/about-bg.jpg"
+about-img: "../img/2-about-bg.jpg"
+
+################
+# 3 Concept layout #
+################
+
+concept-img: "../img/3-concept-bg.jpg"
+
+################
+# 4 But layout #
+################
+
+but-img: "../img/4-but-bg.jpg"
+
+################
+# 5 Idée layout #
+################
+
+timeline-img: "../img/5-timeline-bg.jpg"
+
+################
+# 6 Aterissage layout #
+################
+
+aterissage-img: "../img/6-aterissage-bg.jpg"
+
+################
+# 7 Partenaires layout #
+################
+
+partenaire-img: "../img/7-partenaire-bg.jpg"
+
+################
+# 8 Contact layout #
+################
+
+contact-img: "../img/8-contact-bg.jpg"
 
 ##############################
 # Dynamic Text on the Header #
