@@ -31,7 +31,7 @@ force-https: True
 lang: "fr"
 author: "Yapouni"
 title: "{ Yapouni }"
-description: "Yapouni est un jeu de rôle éducatif, constitué d’une application et d’un stéthoscope connecté, permettant aux enfants et à leurs parents de comprendre et d’apprivoiser la maladie, d’appréhender le processus de soin et de dédramatiser l’hospitalisation."
+description: "Yapouni est un jeu de rôle éducatif, constitué d’une application et d’un stéthoscope connecté."
 keywords: "yapouni"
 favicon: "/img/favicon.ico"
 
@@ -47,7 +47,7 @@ background-img: "../img/Rough-Illustration-monstres.png"
 # Dynamic Text on the Header #
 ##############################
 
-dynamic-typing: True
+dynamic-typing: False
 shuffle: True # Shuffle the lines.
 loop: True
 loop-count: False # Set False for infinite loop, or set any number for finite loop.
@@ -112,11 +112,14 @@ syntax-highlight: True
 
 events:
   - image: "/img/timeline/yapouni_timeline3.png"
-    date: "Novembre 2016 - Today"
-    description: "Café, café, café, café"
+    date: "EXPERTISE MEDICALE"
+    description: "Damir est un médecin super chouette en Australie qui apporte son aide au projet"
   - image: "/img/timeline/yapouni_timeline2.png"
-    date: "September 2015 - Novembre 2016"
-    description: "Qu'est ce qu'on va faire de Yapouni ?"
+    date: "ANIMATION"
+    description: "Mathilde la super graphiste raconte l'histoire de Yapouni en image."
+  - image: "/img/timeline/yapouni_timeline2.png"
+    date: "NOUVELLE TECHNOLOGIE"
+    description: "Renaud le stagiaire cool."
 
 # First image of the Timeline
 
@@ -126,7 +129,7 @@ timeline-img: "/img/timeline/yapouni_timeline1.png"
 # Contact #
 ###########
 
-email: "your@email.here"
+email: "info@yapouni.com"
 
 ################
 # Author Blurb #
@@ -196,4 +199,4 @@ sass:
 
 gems:
   - jekyll-paginate
-  - jemoji
+  # - jemoji
