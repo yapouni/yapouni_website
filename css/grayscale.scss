@@ -15,7 +15,7 @@
 body {
     width: 100%;
     height: 100%;
-    font-family: 'Open Sans', sans-serif !important;    
+    font-family: 'Open Sans', sans-serif !important;
     color: $font-color;
     background-color: $primary-color;
 }
@@ -199,6 +199,33 @@ a {
     }
 }
 
+.about {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    background: url({{ site.about-img }}) no-repeat bottom center scroll;
+    background-color: $header-background-color;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    @media(min-width:768px) {
+        height: 100%;
+        padding: 0;
+        .about-body {
+            .brand-heading {
+                font-size: 100px;
+            }
+            .about-text {
+                font-size: 26px;
+            }
+        }
+    }
+
+}
+
 @-webkit-keyframes pulse {
     from {
         -webkit-transform: scale(1);
@@ -237,7 +264,7 @@ a {
     margin-top: 100px;
     padding-top: 100px;
     @media(min-width:767px) {
-        margin-top: 125px;
+        margin-top: 0px;
         padding-top: 125px;
     }
     /* Added in { Personal } for responsive images in posts and section contents */
@@ -282,7 +309,7 @@ a {
 
 .btn {
     border-radius: 0;
-    font-family: 'Open Sans', sans-serif !important;    
+    font-family: 'Open Sans', sans-serif !important;
     font-weight: 400;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;

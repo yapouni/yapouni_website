@@ -30,7 +30,7 @@ force-https: True
 
 lang: "fr"
 author: "Yapouni"
-title: "{ Yapouni }"
+title: "Yapouni"
 description: "Yapouni est un jeu de rôle éducatif, constitué d’une application et d’un stéthoscope connecté."
 keywords: "yapouni"
 favicon: "/img/favicon.ico"
@@ -39,9 +39,15 @@ favicon: "/img/favicon.ico"
 # Header layout #
 ################
 
-black-favicon: "/img/black-lab-glass.ico"
+#black-favicon: "/img/black-lab-glass.ico"
 
-background-img: "../img/Rough-Illustration-monstres.png"
+background-img: "../img/intro-bg.jpg"
+
+################
+# About layout #
+################
+
+about-img: "../img/about-bg.jpg"
 
 ##############################
 # Dynamic Text on the Header #
